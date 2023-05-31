@@ -1,0 +1,60 @@
+a{
+    text-decoration: none;
+}
+.simpleCard{
+    text-decoration: none;
+    color: #000000;
+}
+
+.simplecard-head{
+    font-weight: 500;
+    color: #DCE2F0;
+    /* background-color: #b2c2bf ; */
+    background-color: #50586C ;
+}
+.simplecard-desc{
+    /* background-color: #c0ded9 ; */
+    background-color: #DCE2F0 ;
+}
+.image-card{
+    box-shadow: none !important;
+}
+.imageCardBody{
+    position: absolute ;
+    bottom: 0;
+}
+
+.image-card:hover{
+    box-shadow: 0 0 0.5rem #35353574 !important;
+}
+
+.simpleCard:hover{
+    /* background-color: #9aaa8f !important; */
+    box-shadow: 0 0 1rem #3535357c;
+    transform: scale(1.02);
+}
+
+.adCard img{
+    width: 10vw;
+}
+
+.tabcard-desc{
+    text-align: justify;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .tab-card{
+        display: flex ;
+        flex-direction: column ;
+    }
+    .tabcard-image{
+        width: 100% !important;
+    }
+    .tabcard-desc-box{
+        width: 100% !important;
+    }
+}
+
+

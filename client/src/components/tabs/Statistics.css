@@ -1,0 +1,45 @@
+#services
+{
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top:50px;
+	padding-bottom: 50px;
+}
+
+
+
+#services h1
+{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#services h1::after
+{
+	content: '';
+	background:#ff7777;
+	display: block;
+	height:3px;
+	width:15rem;
+	margin: 20px auto 5px;
+}
+#services h3
+{
+	font-weight: 400;
+
+	margin: auto;
+}
+#services p
+{
+	font-weight: 400;
+	margin: auto;
+	margin-top: 20px;
+}
+
+
+#services i
+{
+	
+	color: white;
+}

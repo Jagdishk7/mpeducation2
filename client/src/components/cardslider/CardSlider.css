@@ -1,0 +1,25 @@
+.card-slider > h1 {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+.card-slider > h1::before {
+  content: "";
+  background: #ff7777;
+  display: block;
+  height: 3px;
+  width: 5rem;
+  /* margin: 20px auto 5px; */
+  position: relative;
+  bottom: -2.2rem;
+}
+.card-slider > h1::after {
+  content: "";
+  background: #ff7777;
+  display: block;
+  height: 3px;
+  width: 2.5rem;
+  /* margin: 20px auto 5px; */
+  position: relative;
+  bottom: -.6rem;
+}

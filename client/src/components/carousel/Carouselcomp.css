@@ -1,0 +1,22 @@
+.carouselImg{
+    filter:opacity(0.7);
+}
+
+.carousel h3{
+    display: inline;
+    /* color: #252525; */
+    border-radius: 5px;
+    /* font-weight: 800; */
+    margin-bottom: 0;
+}
+
+.carousel p{
+    display: inline;
+    margin-bottom: 0;
+}
+
+.carouselText{
+    background-color: #ff7777;
+    border-radius: 9px;
+    padding: 0.5rem 1rem;
+}
