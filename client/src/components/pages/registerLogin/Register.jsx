@@ -15,7 +15,7 @@ function Register() {
     e.preventDefault();
 
     try {
-      await axios.post("http://127.0.0.1/5000/register", { name,email, password })
+      await axios.post("http://194.31.53.158:5000/register", { name,email, password })
       .then(resp=>{
         if(resp.data==='userExist'){ 
           alert('User Already Exist')
