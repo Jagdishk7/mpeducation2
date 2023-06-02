@@ -15,7 +15,7 @@ function Login() {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:8000/login", { email, password })
+      await axios.post("http://127.0.0.1/5000/login", { email, password })
       .then(resp=>{
         if(resp.data==='accountExist'){
           alert('Successfully Logged in')

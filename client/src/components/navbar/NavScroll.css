@@ -38,6 +38,9 @@
 .nav2-links > a:hover{
     color: aliceblue !important;
 }
+.nav2-links > a:active{
+    color: aliceblue !important;
+}
 
 .search-bar{
     margin-right: 5rem;
