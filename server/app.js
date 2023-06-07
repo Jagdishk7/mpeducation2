@@ -15,7 +15,7 @@ app.use(cors({
 }))
 
 
-app.get('/login',cors(),(req,resp)=>{
+app.get('/server/login',cors(),(req,resp)=>{
 
 })
 
@@ -48,7 +48,7 @@ app.post('/login',async(req,resp)=>{
 
 
 
-app.post('/register',async(req,resp)=>{
+app.post('/server/register',async(req,resp)=>{
     const{name,email,password} = req.body
 
     const data = {
