@@ -22,6 +22,7 @@ app.get('/login',cors(),(req,resp)=>{
 app.post('/login',async(req,resp)=>{
     // req.body gets data from inputs in page
     const{email,password} = req.body
+    resp.write('Login API')
 
     try {
         // console.log(email + ' and ' + password)

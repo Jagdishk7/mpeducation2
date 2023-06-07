@@ -8,9 +8,9 @@ function Register() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const axiosInstance = axios.create({
-    baseURL: "http://194.31.53.158/server"
-  })
+  // const axiosInstance = axios.create({
+  //   baseURL: "http://194.31.53.158/server"
+  // })
 
   const history = useNavigate()
 
@@ -18,7 +18,7 @@ function Register() {
     e.preventDefault();
 
     try {
-      await axiosInstance.post("/register", { name,email, password })
+      await axios.post("http://194.31.53.158/server/register", { name,email, password })
       .then(resp=>{
         if(resp.data==='userExist'){ 
           alert('User Already Exist')
