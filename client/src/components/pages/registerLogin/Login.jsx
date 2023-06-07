@@ -8,17 +8,13 @@ import { Link } from "react-router-dom";
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const axiosInstance = axios.create({
-    baseURL: "http://194.31.53.158/server/"
-  })
-
   const history = useNavigate()
 
   async function submit(e) {
     e.preventDefault();
 
     try {
-      await axiosInstance.post("/login", { email, password })
+      await axios.post("http://194.31.53.158/server/login", { email, password })
       .then(resp=>{
         if(resp.data==='accountExist'){
           alert('Successfully Logged in')
