@@ -9,7 +9,7 @@ function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const axiosInstance = axios.create({
-    baseURL: "http://194.31.53.158/server"
+    baseURL: "http://194.31.53.158/server/"
   })
 
   const history = useNavigate()
