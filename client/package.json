@@ -1,8 +1,7 @@
 {
   "name": "web1",
   "version": "0.1.0",
-  "private": true,
-  "proxy": "http://localhost:8000",
+  "homepage": ".",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.10.8",
@@ -15,7 +14,6 @@
     "axios": "^1.4.0",
     "bootstrap": "^5.2.3",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.1",
     "emailjs": "^4.0.2",
     "express": "^4.18.2",
     "mongoose": "^7.1.1",
@@ -55,5 +53,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "dotenv": "^16.1.4"
   }
 }
