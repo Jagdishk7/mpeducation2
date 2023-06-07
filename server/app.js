@@ -10,7 +10,9 @@ const app = express();
 // middle ware
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
-app.use(cors())
+app.use(cors({
+    origin: 'http://194.31.53.158/'
+}))
 
 
 app.get('/login',cors(),(req,resp)=>{
