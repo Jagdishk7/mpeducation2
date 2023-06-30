@@ -40,10 +40,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/playschool" element={<PlaySchool />} />
           <Route path="/BoardingSchools" element={<BoardingSchools />} />
-          <Route
-            path="/CollegesUniversities"
-            element={<CollegesUniversities />}
-          />
+          <Route path="/CollegesUniversities" element={<CollegesUniversities />} />
           <Route path="/coachings" element={<Coachings />} />
           <Route
             path="/TechnicalInstitutes"

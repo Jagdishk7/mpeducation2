@@ -9,6 +9,7 @@ import Statistics from "../../tabs/Statistics";
 import { useLocation } from "react-router-dom";
 import CardSliderPlay from "../../cardslider/CardSliderPlay";
 import CardSliderBoarding from "../../cardslider/CardSliderBoarding";
+import Dropdown from "../../dropdown/Dropdown";
 
 const Home = () => {
   const location = useLocation();
@@ -18,22 +19,13 @@ const Home = () => {
       <div className="home-section">
         <Carouselcomp />
         <div className="main-container">
-          <div className="ad-section-left ad-section">
-            <AdCard title={'Edify'} desc={'Edify School Chhatarpur'} src={'assets/boardingSchools/edify.jpg'} />
+          <div className=" sub-section">
+            <Dropdown />
           </div>
           <div className="main-content">
-            {/* <div className=" sub-section">
-            Hello {location.state.id} welcome to the home
-          </div> */}
             <div className=" sub-section home-category">
               <Category />
             </div>
-          </div>
-          {/* <div className=" sub-section">
-            <CallbackForm/>
-          </div> */}
-          <div className="ad-section-right ad-section">
-          <AdCard title={'DPS'} desc={'Delhi Public School'} src={'assets/boardingSchools/dps2.jpg'} />
           </div>
         </div>
         <div className="flex-column-center">

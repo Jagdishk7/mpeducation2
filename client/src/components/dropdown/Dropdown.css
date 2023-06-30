@@ -1,0 +1,25 @@
+.dropdown-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+
+.dropdown-button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 0.5rem;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+ 
+  }
+  .dropdown-button:hover{
+    background: #449646;
+  }
